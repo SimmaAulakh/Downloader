@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2576C0FB5BA4861D0874BB02 /* Pods_WebViewDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285739B0057D7C770F6E34AC /* Pods_WebViewDownload.framework */; };
+		4ADBB5E125F0F6E1007DDD3D /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBB5E025F0F6E1007DDD3D /* PlayerVC.swift */; };
+		4ADF699325EFA49F00A510C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF699225EFA49F00A510C8 /* AppDelegate.swift */; };
+		4ADF699525EFA49F00A510C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF699425EFA49F00A510C8 /* SceneDelegate.swift */; };
+		4ADF699725EFA49F00A510C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF699625EFA49F00A510C8 /* ViewController.swift */; };
+		4ADF699A25EFA49F00A510C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF699825EFA49F00A510C8 /* Main.storyboard */; };
+		4ADF699C25EFA4A200A510C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF699B25EFA4A200A510C8 /* Assets.xcassets */; };
+		4ADF699F25EFA4A200A510C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF699D25EFA4A200A510C8 /* LaunchScreen.storyboard */; };
+		4ADF69AA25EFA4A200A510C8 /* WebViewDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF69A925EFA4A200A510C8 /* WebViewDownloadTests.swift */; };
+		4ADF69B525EFA4A200A510C8 /* WebViewDownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF69B425EFA4A200A510C8 /* WebViewDownloadUITests.swift */; };
+		4ADF69D325F0B03F00A510C8 /* DownloadsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF69D225F0B03F00A510C8 /* DownloadsVC.swift */; };
+		4ADF69D825F0B27800A510C8 /* HelpingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF69D725F0B27800A510C8 /* HelpingClass.swift */; };
+		4ADF69DD25F0B31C00A510C8 /* Viewcontroller+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF69DC25F0B31C00A510C8 /* Viewcontroller+Extensions.swift */; };
+		4ADF69E225F0B91600A510C8 /* DownloadsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF69E125F0B91600A510C8 /* DownloadsCell.swift */; };
+		64AB67AA024748D7EDB701A8 /* Pods_WebViewDownloadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3029960376AC234C538D6C5 /* Pods_WebViewDownloadTests.framework */; };
+		C84C6107AFEB69B4CCDC30F2 /* Pods_WebViewDownload_WebViewDownloadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22148C88A11F5B6F510EFC52 /* Pods_WebViewDownload_WebViewDownloadUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ADF69A625EFA4A200A510C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADF698725EFA49F00A510C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADF698E25EFA49F00A510C8;
+			remoteInfo = WebViewDownload;
+		};
+		4ADF69B125EFA4A200A510C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ADF698725EFA49F00A510C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ADF698E25EFA49F00A510C8;
+			remoteInfo = WebViewDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A256CE621BAB83556D58712 /* Pods-WebViewDownloadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewDownloadTests.release.xcconfig"; path = "Target Support Files/Pods-WebViewDownloadTests/Pods-WebViewDownloadTests.release.xcconfig"; sourceTree = "<group>"; };
+		22148C88A11F5B6F510EFC52 /* Pods_WebViewDownload_WebViewDownloadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewDownload_WebViewDownloadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		285739B0057D7C770F6E34AC /* Pods_WebViewDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADBB5E025F0F6E1007DDD3D /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		4ADF698F25EFA49F00A510C8 /* Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Downloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADF699225EFA49F00A510C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ADF699425EFA49F00A510C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ADF699625EFA49F00A510C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ADF699925EFA49F00A510C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADF699B25EFA4A200A510C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADF699E25EFA4A200A510C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ADF69A025EFA4A200A510C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADF69A525EFA4A200A510C8 /* DownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADF69A925EFA4A200A510C8 /* WebViewDownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDownloadTests.swift; sourceTree = "<group>"; };
+		4ADF69AB25EFA4A200A510C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADF69B025EFA4A200A510C8 /* DownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADF69B425EFA4A200A510C8 /* WebViewDownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDownloadUITests.swift; sourceTree = "<group>"; };
+		4ADF69B625EFA4A200A510C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADF69D225F0B03F00A510C8 /* DownloadsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsVC.swift; sourceTree = "<group>"; };
+		4ADF69D725F0B27800A510C8 /* HelpingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpingClass.swift; sourceTree = "<group>"; };
+		4ADF69DC25F0B31C00A510C8 /* Viewcontroller+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Viewcontroller+Extensions.swift"; sourceTree = "<group>"; };
+		4ADF69E125F0B91600A510C8 /* DownloadsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsCell.swift; sourceTree = "<group>"; };
+		56A853FC659D6204BCEF2EBA /* Pods-WebViewDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewDownload.debug.xcconfig"; path = "Target Support Files/Pods-WebViewDownload/Pods-WebViewDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		76F1400757B910154F39BD41 /* Pods-WebViewDownloadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewDownloadTests.debug.xcconfig"; path = "Target Support Files/Pods-WebViewDownloadTests/Pods-WebViewDownloadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF92E0200035D4017146FD3 /* Pods-WebViewDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewDownload.release.xcconfig"; path = "Target Support Files/Pods-WebViewDownload/Pods-WebViewDownload.release.xcconfig"; sourceTree = "<group>"; };
+		B3029960376AC234C538D6C5 /* Pods_WebViewDownloadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebViewDownloadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B732D67139B0D5EAB5CA7741 /* Pods-WebViewDownload-WebViewDownloadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewDownload-WebViewDownloadUITests.debug.xcconfig"; path = "Target Support Files/Pods-WebViewDownload-WebViewDownloadUITests/Pods-WebViewDownload-WebViewDownloadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA91F18A9A35682D4A72BD3 /* Pods-WebViewDownload-WebViewDownloadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebViewDownload-WebViewDownloadUITests.release.xcconfig"; path = "Target Support Files/Pods-WebViewDownload-WebViewDownloadUITests/Pods-WebViewDownload-WebViewDownloadUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADF698C25EFA49F00A510C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2576C0FB5BA4861D0874BB02 /* Pods_WebViewDownload.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADF69A225EFA4A200A510C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64AB67AA024748D7EDB701A8 /* Pods_WebViewDownloadTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADF69AD25EFA4A200A510C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84C6107AFEB69B4CCDC30F2 /* Pods_WebViewDownload_WebViewDownloadUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DA296A48B9249574D92EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				285739B0057D7C770F6E34AC /* Pods_WebViewDownload.framework */,
+				22148C88A11F5B6F510EFC52 /* Pods_WebViewDownload_WebViewDownloadUITests.framework */,
+				B3029960376AC234C538D6C5 /* Pods_WebViewDownloadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ADF698625EFA49F00A510C8 = {
+			isa = PBXGroup;
+			children = (
+				4ADF699125EFA49F00A510C8 /* WebViewDownload */,
+				4ADF69A825EFA4A200A510C8 /* WebViewDownloadTests */,
+				4ADF69B325EFA4A200A510C8 /* WebViewDownloadUITests */,
+				4ADF699025EFA49F00A510C8 /* Products */,
+				CA2A248D4BFC259C16A8E032 /* Pods */,
+				22DA296A48B9249574D92EAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADF699025EFA49F00A510C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF698F25EFA49F00A510C8 /* Downloader.app */,
+				4ADF69A525EFA4A200A510C8 /* DownloaderTests.xctest */,
+				4ADF69B025EFA4A200A510C8 /* DownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADF699125EFA49F00A510C8 /* WebViewDownload */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF699225EFA49F00A510C8 /* AppDelegate.swift */,
+				4ADF699425EFA49F00A510C8 /* SceneDelegate.swift */,
+				4ADF699625EFA49F00A510C8 /* ViewController.swift */,
+				4ADF699825EFA49F00A510C8 /* Main.storyboard */,
+				4ADF699B25EFA4A200A510C8 /* Assets.xcassets */,
+				4ADF699D25EFA4A200A510C8 /* LaunchScreen.storyboard */,
+				4ADF69A025EFA4A200A510C8 /* Info.plist */,
+				4ADF69D225F0B03F00A510C8 /* DownloadsVC.swift */,
+				4ADF69D725F0B27800A510C8 /* HelpingClass.swift */,
+				4ADF69DC25F0B31C00A510C8 /* Viewcontroller+Extensions.swift */,
+				4ADF69E125F0B91600A510C8 /* DownloadsCell.swift */,
+				4ADBB5E025F0F6E1007DDD3D /* PlayerVC.swift */,
+			);
+			path = WebViewDownload;
+			sourceTree = "<group>";
+		};
+		4ADF69A825EFA4A200A510C8 /* WebViewDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF69A925EFA4A200A510C8 /* WebViewDownloadTests.swift */,
+				4ADF69AB25EFA4A200A510C8 /* Info.plist */,
+			);
+			path = WebViewDownloadTests;
+			sourceTree = "<group>";
+		};
+		4ADF69B325EFA4A200A510C8 /* WebViewDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ADF69B425EFA4A200A510C8 /* WebViewDownloadUITests.swift */,
+				4ADF69B625EFA4A200A510C8 /* Info.plist */,
+			);
+			path = WebViewDownloadUITests;
+			sourceTree = "<group>";
+		};
+		CA2A248D4BFC259C16A8E032 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56A853FC659D6204BCEF2EBA /* Pods-WebViewDownload.debug.xcconfig */,
+				ACF92E0200035D4017146FD3 /* Pods-WebViewDownload.release.xcconfig */,
+				B732D67139B0D5EAB5CA7741 /* Pods-WebViewDownload-WebViewDownloadUITests.debug.xcconfig */,
+				FFA91F18A9A35682D4A72BD3 /* Pods-WebViewDownload-WebViewDownloadUITests.release.xcconfig */,
+				76F1400757B910154F39BD41 /* Pods-WebViewDownloadTests.debug.xcconfig */,
+				1A256CE621BAB83556D58712 /* Pods-WebViewDownloadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADF698E25EFA49F00A510C8 /* Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADF69B925EFA4A200A510C8 /* Build configuration list for PBXNativeTarget "Downloader" */;
+			buildPhases = (
+				F94A3FAB990BBEDCACD9F43E /* [CP] Check Pods Manifest.lock */,
+				4ADF698B25EFA49F00A510C8 /* Sources */,
+				4ADF698C25EFA49F00A510C8 /* Frameworks */,
+				4ADF698D25EFA49F00A510C8 /* Resources */,
+				18F33A20531DE31F3B18CC66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Downloader;
+			productName = WebViewDownload;
+			productReference = 4ADF698F25EFA49F00A510C8 /* Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ADF69A425EFA4A200A510C8 /* DownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADF69BC25EFA4A200A510C8 /* Build configuration list for PBXNativeTarget "DownloaderTests" */;
+			buildPhases = (
+				9D5AE6D39616F9EE7AEB45C1 /* [CP] Check Pods Manifest.lock */,
+				4ADF69A125EFA4A200A510C8 /* Sources */,
+				4ADF69A225EFA4A200A510C8 /* Frameworks */,
+				4ADF69A325EFA4A200A510C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADF69A725EFA4A200A510C8 /* PBXTargetDependency */,
+			);
+			name = DownloaderTests;
+			productName = WebViewDownloadTests;
+			productReference = 4ADF69A525EFA4A200A510C8 /* DownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ADF69AF25EFA4A200A510C8 /* DownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADF69BF25EFA4A200A510C8 /* Build configuration list for PBXNativeTarget "DownloaderUITests" */;
+			buildPhases = (
+				5443B4A29E0411E0E7BCF935 /* [CP] Check Pods Manifest.lock */,
+				4ADF69AC25EFA4A200A510C8 /* Sources */,
+				4ADF69AD25EFA4A200A510C8 /* Frameworks */,
+				4ADF69AE25EFA4A200A510C8 /* Resources */,
+				02B9CA1582C55A447969C1C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ADF69B225EFA4A200A510C8 /* PBXTargetDependency */,
+			);
+			name = DownloaderUITests;
+			productName = WebViewDownloadUITests;
+			productReference = 4ADF69B025EFA4A200A510C8 /* DownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADF698725EFA49F00A510C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4ADF698E25EFA49F00A510C8 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4ADF69A425EFA4A200A510C8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4ADF698E25EFA49F00A510C8;
+					};
+					4ADF69AF25EFA4A200A510C8 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4ADF698E25EFA49F00A510C8;
+					};
+				};
+			};
+			buildConfigurationList = 4ADF698A25EFA49F00A510C8 /* Build configuration list for PBXProject "Downloader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADF698625EFA49F00A510C8;
+			productRefGroup = 4ADF699025EFA49F00A510C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADF698E25EFA49F00A510C8 /* Downloader */,
+				4ADF69A425EFA4A200A510C8 /* DownloaderTests */,
+				4ADF69AF25EFA4A200A510C8 /* DownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADF698D25EFA49F00A510C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADF699F25EFA4A200A510C8 /* LaunchScreen.storyboard in Resources */,
+				4ADF699C25EFA4A200A510C8 /* Assets.xcassets in Resources */,
+				4ADF699A25EFA49F00A510C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADF69A325EFA4A200A510C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADF69AE25EFA4A200A510C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B9CA1582C55A447969C1C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewDownload-WebViewDownloadUITests/Pods-WebViewDownload-WebViewDownloadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewDownload-WebViewDownloadUITests/Pods-WebViewDownload-WebViewDownloadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebViewDownload-WebViewDownloadUITests/Pods-WebViewDownload-WebViewDownloadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18F33A20531DE31F3B18CC66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewDownload/Pods-WebViewDownload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebViewDownload/Pods-WebViewDownload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebViewDownload/Pods-WebViewDownload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5443B4A29E0411E0E7BCF935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewDownload-WebViewDownloadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5AE6D39616F9EE7AEB45C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewDownloadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94A3FAB990BBEDCACD9F43E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebViewDownload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADF698B25EFA49F00A510C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADF69D825F0B27800A510C8 /* HelpingClass.swift in Sources */,
+				4ADF69D325F0B03F00A510C8 /* DownloadsVC.swift in Sources */,
+				4ADF699725EFA49F00A510C8 /* ViewController.swift in Sources */,
+				4ADF699325EFA49F00A510C8 /* AppDelegate.swift in Sources */,
+				4ADF69DD25F0B31C00A510C8 /* Viewcontroller+Extensions.swift in Sources */,
+				4ADF699525EFA49F00A510C8 /* SceneDelegate.swift in Sources */,
+				4ADF69E225F0B91600A510C8 /* DownloadsCell.swift in Sources */,
+				4ADBB5E125F0F6E1007DDD3D /* PlayerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADF69A125EFA4A200A510C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADF69AA25EFA4A200A510C8 /* WebViewDownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADF69AC25EFA4A200A510C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADF69B525EFA4A200A510C8 /* WebViewDownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ADF69A725EFA4A200A510C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADF698E25EFA49F00A510C8 /* Downloader */;
+			targetProxy = 4ADF69A625EFA4A200A510C8 /* PBXContainerItemProxy */;
+		};
+		4ADF69B225EFA4A200A510C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ADF698E25EFA49F00A510C8 /* Downloader */;
+			targetProxy = 4ADF69B125EFA4A200A510C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ADF699825EFA49F00A510C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADF699925EFA49F00A510C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADF699D25EFA4A200A510C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADF699E25EFA4A200A510C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADF69B725EFA4A200A510C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ADF69B825EFA4A200A510C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADF69BA25EFA4A200A510C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A853FC659D6204BCEF2EBA /* Pods-WebViewDownload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCH98JTVGH;
+				INFOPLIST_FILE = WebViewDownload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.WebViewDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ADF69BB25EFA4A200A510C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF92E0200035D4017146FD3 /* Pods-WebViewDownload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCH98JTVGH;
+				INFOPLIST_FILE = WebViewDownload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.WebViewDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ADF69BD25EFA4A200A510C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F1400757B910154F39BD41 /* Pods-WebViewDownloadTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCH98JTVGH;
+				INFOPLIST_FILE = WebViewDownloadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.WebViewDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Downloader.app/Downloader";
+			};
+			name = Debug;
+		};
+		4ADF69BE25EFA4A200A510C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A256CE621BAB83556D58712 /* Pods-WebViewDownloadTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCH98JTVGH;
+				INFOPLIST_FILE = WebViewDownloadTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.WebViewDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Downloader.app/Downloader";
+			};
+			name = Release;
+		};
+		4ADF69C025EFA4A200A510C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B732D67139B0D5EAB5CA7741 /* Pods-WebViewDownload-WebViewDownloadUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCH98JTVGH;
+				INFOPLIST_FILE = WebViewDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.WebViewDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebViewDownload;
+			};
+			name = Debug;
+		};
+		4ADF69C125EFA4A200A510C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA91F18A9A35682D4A72BD3 /* Pods-WebViewDownload-WebViewDownloadUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCH98JTVGH;
+				INFOPLIST_FILE = WebViewDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matrix.WebViewDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WebViewDownload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADF698A25EFA49F00A510C8 /* Build configuration list for PBXProject "Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADF69B725EFA4A200A510C8 /* Debug */,
+				4ADF69B825EFA4A200A510C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADF69B925EFA4A200A510C8 /* Build configuration list for PBXNativeTarget "Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADF69BA25EFA4A200A510C8 /* Debug */,
+				4ADF69BB25EFA4A200A510C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADF69BC25EFA4A200A510C8 /* Build configuration list for PBXNativeTarget "DownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADF69BD25EFA4A200A510C8 /* Debug */,
+				4ADF69BE25EFA4A200A510C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADF69BF25EFA4A200A510C8 /* Build configuration list for PBXNativeTarget "DownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADF69C025EFA4A200A510C8 /* Debug */,
+				4ADF69C125EFA4A200A510C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ADF698725EFA49F00A510C8 /* Project object */;
+}
